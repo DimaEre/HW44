@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void показати(vector <int> A)
+void ГЇГ®ГЄГ Г§Г ГІГЁ(vector <int> A)
 {
 	for (size_t i = 0; i < A.size(); i++)
 	{
@@ -41,18 +41,9 @@ int main()
 	a = A[N];
 	A.pop_back();
 
-	показати(A);
+	ГЇГ®ГЄГ Г§Г ГІГЁ(A);
 
-	cout << "Enter number(1 - " << N << "):	";
-	cin >> b;
-	if (b == a)
-	{
-		cout << "Congratulations!! YOU WON!! \n";
-	}
-	else
-	{
-		cout << "Im sorry, you lose...\n";
-	}
+	cout << endl << a;
 	return 0;
 
 
